@@ -1,8 +1,8 @@
-# [0.0.0](https://github.com/hamlet-io/engine/compare/8.1.2...0.0.0) (2021-05-13)
+# [0.0.0](https://github.com/hamlet-io/engine/compare/8.1.2...0.0.0) (2021-05-17)
 
 
 
-## [8.1.2](https://github.com/hamlet-io/engine/compare/v8.0.1...8.1.2) (2021-05-13)
+## [8.1.2](https://github.com/hamlet-io/engine/compare/v8.0.1...8.1.2) (2021-05-16)
 
 
 ### Bug Fixes
@@ -53,29 +53,30 @@
 ### Features
 
 * **adaptor:** add attribute definition support ([89e6c6b](https://github.com/hamlet-io/engine/commit/89e6c6b46ab838beae795fd2c05e9e7a68e88a5e))
+* **apigateway:** support for mutualTLS ([47470a0](https://github.com/hamlet-io/engine/commit/47470a08a5510e11b1ab1baf1e7d83bd2386faf8))
+* **computecluster:** image source configuration ([84d57f1](https://github.com/hamlet-io/engine/commit/84d57f1f685d523a50d8941416270e02a406666d))
+* **contentnode:** add support for image sources ([6ae1df0](https://github.com/hamlet-io/engine/commit/6ae1df0684c7e72859777f82ab29fbb3271d7cb3))
 * **globaldb:** define change stream support ([a73d5df](https://github.com/hamlet-io/engine/commit/a73d5df6b6dd43aeba08ea1e8fced41b39c2e7c0))
+* **mobileapp:** add support for image config ([b0f4aae](https://github.com/hamlet-io/engine/commit/b0f4aae6a0c9ff532028a123b19e9482e92dfb28))
 * add attirbutes during extension processing ([#1625](https://github.com/hamlet-io/engine/issues/1625)) ([4f4682d](https://github.com/hamlet-io/engine/commit/4f4682d32afd1c21594d72247f89a941b176579a))
 * add attribute extension support ([ae05565](https://github.com/hamlet-io/engine/commit/ae055652504b64ded6854afa0d7197e5ae9b3b6b))
+* add base permissions for ec2 components ([183d27a](https://github.com/hamlet-io/engine/commit/183d27a86c1d84ea1a4b4bc0e73357ea74b92011))
 * add compute task for system volumes ([0dcaa2d](https://github.com/hamlet-io/engine/commit/0dcaa2d8acd9a1de618023d2f2d24d2caadb7303))
 * add healthcheck component definition ([495e32f](https://github.com/hamlet-io/engine/commit/495e32f786b4a342ae4baf776360c5fc011512d2))
 * add image configuration support for vms ([#1627](https://github.com/hamlet-io/engine/issues/1627)) ([e59343c](https://github.com/hamlet-io/engine/commit/e59343c169a3fb23eb77d7cb043ecf801d2ec732))
 * add logging output processing ([f099e74](https://github.com/hamlet-io/engine/commit/f099e74143ccf641c851c1b4746da0d17b572cca))
 * add logging output writer ([a27a85f](https://github.com/hamlet-io/engine/commit/a27a85f582f5ae4c2e124a447c66e05363cfd8b6))
+* add raw id and name formatting ([0eb6c0e](https://github.com/hamlet-io/engine/commit/0eb6c0e658401600e7503c4f0f044da0bea2bbfe))
 * add storage profile configuration ([#1642](https://github.com/hamlet-io/engine/issues/1642)) ([c45dda4](https://github.com/hamlet-io/engine/commit/c45dda4d2e21d2ededa06a75ad532499d361aef9))
 * add support for engine output writing ([#1583](https://github.com/hamlet-io/engine/issues/1583)) ([6643881](https://github.com/hamlet-io/engine/commit/664388182f59de66d4cdca03924e7327eb9dcc8e))
+* additional output handlers for console logs ([d1675c2](https://github.com/hamlet-io/engine/commit/d1675c28b5529381d33f5cfcd5395fdfe6061929))
 * adds mount path to volume config ([4ca8735](https://github.com/hamlet-io/engine/commit/4ca87359e98d9702fb421b515713c5238f6b43f9))
 * compact log format for console ([6696ea4](https://github.com/hamlet-io/engine/commit/6696ea43fd8e0e6923fc652226a6a758a06b7bf6))
-* disable prefix for value extensions ([7015a84](https://github.com/hamlet-io/engine/commit/7015a8406f2348b573ac00df2c58912eaae040ec))
-* write setting utility ([def0473](https://github.com/hamlet-io/engine/commit/def0473b82fd8f879c6ffaf08fadc4c53da0b98a))
-* **apigateway:** support for mutualTLS ([47470a0](https://github.com/hamlet-io/engine/commit/47470a08a5510e11b1ab1baf1e7d83bd2386faf8))
-* **computecluster:** image source configuration ([84d57f1](https://github.com/hamlet-io/engine/commit/84d57f1f685d523a50d8941416270e02a406666d))
-* add base permissions for ec2 components ([183d27a](https://github.com/hamlet-io/engine/commit/183d27a86c1d84ea1a4b4bc0e73357ea74b92011))
-* add raw id and name formatting ([0eb6c0e](https://github.com/hamlet-io/engine/commit/0eb6c0e658401600e7503c4f0f044da0bea2bbfe))
-* additional output handlers for console logs ([d1675c2](https://github.com/hamlet-io/engine/commit/d1675c28b5529381d33f5cfcd5395fdfe6061929))
 * compute image attribute sets ([7841ea8](https://github.com/hamlet-io/engine/commit/7841ea8609ab4e812aa83816c69c84e0af274b47))
 * compute tasks ([a5bc756](https://github.com/hamlet-io/engine/commit/a5bc75603674065f99ee8d707116ccffdd87a4bf))
 * computeTask configuration extension macro ([ab21876](https://github.com/hamlet-io/engine/commit/ab21876e72b1f02f9accea65003f6e655458f721))
 * console and log file writers ([10e97c1](https://github.com/hamlet-io/engine/commit/10e97c1c0de7af27aad6f5cd712710df6cb2568d))
+* disable prefix for value extensions ([7015a84](https://github.com/hamlet-io/engine/commit/7015a8406f2348b573ac00df2c58912eaae040ec))
 * explicit extensions only ([c86e3a9](https://github.com/hamlet-io/engine/commit/c86e3a9e53c153928020a1e6eb8d139868525174))
 * extend multipass generation support ([0cff4e4](https://github.com/hamlet-io/engine/commit/0cff4e47d5ce3dca5a0cc91488f7eaf789bba737))
 * extend output handler properties ([8e5f284](https://github.com/hamlet-io/engine/commit/8e5f284e9566f3d431c82ee3d61bad4b3bd34ee1))
@@ -88,6 +89,7 @@
 * pretty output for json string ([ac1c486](https://github.com/hamlet-io/engine/commit/ac1c4861b27aab9635650537762cb544ee648832))
 * support executing multiple passes ([f2a40ad](https://github.com/hamlet-io/engine/commit/f2a40adac2a6710478e0adbd72104bf56b6b8f48))
 * warnings and deployed link failures ([757b774](https://github.com/hamlet-io/engine/commit/757b774a683e00ab0e30b65326dfde2d0a019fd7))
+* write setting utility ([def0473](https://github.com/hamlet-io/engine/commit/def0473b82fd8f879c6ffaf08fadc4c53da0b98a))
 * yaml config output and contract properties ([4081406](https://github.com/hamlet-io/engine/commit/40814066fcfc93eb48643ee6477cd04c301b0ca2))
 * yaml env support and alternatives ([f2cd68d](https://github.com/hamlet-io/engine/commit/f2cd68dd29cceb44865152a7748944c884a3d961))
 * **apigateway:** image sourcing support ([#1622](https://github.com/hamlet-io/engine/issues/1622)) ([dde4e1a](https://github.com/hamlet-io/engine/commit/dde4e1a5ea31c65501469c5cd75afcfbb8e8142f))
